@@ -112,7 +112,7 @@ public class GameController {
         return (request.getParameter(cellName) != null);
     }
 
-	// Getter for this class' random number generator
+	//cnu  Getter for this class' random number generator
 	// Good practice to avoid directly accessing attributes, use getters and setters instead
     private Random getRandomGenerator() {
         return randomGenerator;
